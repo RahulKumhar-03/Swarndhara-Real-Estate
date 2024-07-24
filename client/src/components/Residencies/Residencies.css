@@ -1,0 +1,41 @@
+.resd-container{
+    overflow: hidden;
+}
+.resd-head {
+  margin-bottom: 2rem;
+}
+
+.resd-button{
+    margin-top: 10px;
+    gap: 1rem;
+}
+.resd-button button{
+    color: blue;
+    font-size: 1.5rem;
+    padding: 0.2rem 0.8rem;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+   }
+
+.swiper-horizontal {
+  overflow: visible;
+}
+
+.resd-button>:nth-child(1){
+    background-color: #EEEEFF;
+}
+.resd-button>:nth-child(2){
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
+}
+
+@media (max-width: 640px){
+  .resd-head{
+    align-items: center;
+  }
+  .resd-button{
+    position: initial;
+  }
+}
+
