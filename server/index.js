@@ -17,10 +17,10 @@ app.use((req, res, next) => {
    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
    next();
  });
-{/*app.use(cors({
-   origin:"http://localhost:5173",
+app.use(cors({
+   origin:"https://swarndhara-real-estate-two.vercel.app",
    credentials:true,
-}))*/}
+}))
 
 app.listen(PORT, () => {
    console.log(`Server is running on port:${PORT}`);
